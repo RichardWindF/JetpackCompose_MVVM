@@ -20,7 +20,9 @@ class MainActivity : ComponentActivity()
         setContent {
             //注意这个 moudleNameTheme 名字好像不能换，多模块怎办呢？
             JetpackCompose_MVVMTheme{
-                PhotographterCard()
+               // PhotographterCard()
+
+                LayoutStudy()
 
             }
 
