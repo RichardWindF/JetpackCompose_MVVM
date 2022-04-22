@@ -9,6 +9,7 @@ import androidx.compose.material.Surface
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.layout.FirstBaseline
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.jetpackcomposelayouts.ui.theme.JetpackCompose_MVVMTheme
 
@@ -27,7 +28,12 @@ class MainActivity : ComponentActivity()
               //  SimpleList()       // 文件Lists.kt 中的函数
               //  LazyList()
 
-                ScrollListFy()        //网上加载图片
+              //  ScrollListFy()        //网上加载图片
+
+               // TextWithPddingToBaseline()     //FirstBaseLineToTop.kt 中的函数
+
+                MyOwnColumnSample()
+
 
             }
 
