@@ -22,7 +22,12 @@ class MainActivity : ComponentActivity()
             JetpackCompose_MVVMTheme{
                // PhotographterCard()
 
-                LayoutStudy()
+             //   LayoutStudy()
+
+              //  SimpleList()       // 文件Lists.kt 中的函数
+              //  LazyList()
+
+                ScrollListFy()        //网上加载图片
 
             }
 
