@@ -32,7 +32,11 @@ class MainActivity : ComponentActivity()
 
               //  TextWithPddingToBaseline()     //FirstBaseLineToTop.kt 中的函数
 
-                MyOwnColumnSample()
+               // MyOwnColumnSample()         //MyOwnColumn.kt 中函数
+
+              //  StaggeredGrid()             // 自定义布局 StaggeredGrid.kt 中函数
+
+                StaggeredGridBodyContent()
             }
 
         }
