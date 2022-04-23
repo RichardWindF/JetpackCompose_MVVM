@@ -30,9 +30,7 @@ class MainActivity : ComponentActivity()
 
               //  ScrollListFy()        //网上加载图片
 
-               // TextWithPddingToBaseline()     //FirstBaseLineToTop.kt 中的函数
-
-                MyOwnColumnSample()
+                TextWithPddingToBaseline()     //FirstBaseLineToTop.kt 中的函数
 
 
             }

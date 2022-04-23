@@ -16,7 +16,7 @@ import com.example.jetpackcomposelayouts.ui.theme.JetpackCompose_MVVMTheme
 
 fun Modifier.firstBaselineToTop(                     //自定义的扩展函数？
     firstBaselineToTop: Dp
-) =this.then(                                  //修改成 this.then()-返回当前的modifier,为下面链式编程
+) =this.then(
     layout{measurable, constraints ->
         //测量元素
         val placeable=measurable.measure(constraints)
@@ -46,8 +46,7 @@ fun TextWithPddingToBaseline()
             Modifier
                // .padding(25.dp)  //这里期望使用上面的自定义
                 .firstBaselineToTop(50.dp)
-                //使用这个下面会变红，因为链式编程，需要返回本身的对象，
-                // 所以上面修改成 this.then()-返回当前的modifier
+                //使用这个下面会变红，因为链式编程，需要返回本身的对象，所以上面修改成 this.then()-返回当前的modifier
 
                 .background(Color.Red)
         )
