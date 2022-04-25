@@ -36,7 +36,11 @@ class MainActivity : ComponentActivity()
 
               //  StaggeredGrid()             // 自定义布局 StaggeredGrid.kt 中函数
 
-                StaggeredGridBodyContent()
+                //StaggeredGridBodyContent()   // 自定义布局 StaggeredGrid.kt 中函数
+
+                //ConstrainLayoutContent()        // MyConstraintLayout.kt 中函数
+                //ConstrainLayoutContent2()        // MyConstraintLayout.kt 中函数
+                LargeLayoutContent()       // MyConstraintLayout.kt 中函数
             }
 
         }
